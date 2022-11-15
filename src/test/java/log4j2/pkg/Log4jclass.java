@@ -7,7 +7,7 @@ public class Log4jclass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    Logger Log=(Logger) LogManager.getLogger();   
+    Logger Log=(Logger) LogManager.getLogger("Log4jclass");   
     System.out.println(" thid is logger");
     
     Log.info("for info only");

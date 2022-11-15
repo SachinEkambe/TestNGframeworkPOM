@@ -1,69 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T01:48:13 IST" name="Sanity Test Suite" finished-at="2022-09-09T01:48:13 IST" duration-ms="108">
+  <suite started-at="2022-10-09T19:23:32 IST" name="Default suite" finished-at="2022-10-09T19:23:34 IST" duration-ms="1189">
     <groups>
     </groups>
-    <test started-at="2022-09-09T01:48:13 IST" name="Sanity Test" finished-at="2022-09-09T01:48:13 IST" duration-ms="108">
-      <class name="BatchTesting.HomeScreenTest">
-        <test-method signature="LunchApplication()[pri:0, instance:BatchTesting.HomeScreenTest@6973b51b]" started-at="2022-09-09T01:48:13 IST" name="LunchApplication" finished-at="2022-09-09T01:48:13 IST" duration-ms="23" status="PASS">
+    <test started-at="2022-10-09T19:23:32 IST" name="Default test" finished-at="2022-10-09T19:23:34 IST" duration-ms="1189">
+      <class name="Extenantreport.ExtenantReportEx">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:32 IST" name="StartReport" finished-at="2022-10-09T19:23:33 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LunchApplication -->
-        <test-method signature="VarifyTitle()[pri:0, instance:BatchTesting.HomeScreenTest@6973b51b]" started-at="2022-09-09T01:48:13 IST" name="VarifyTitle" finished-at="2022-09-09T01:48:13 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- StartReport -->
+        <test-method signature="LunchBrowser()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="LunchBrowser" finished-at="2022-10-09T19:23:33 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LunchBrowser status=SUCCESS method=ExtenantReportEx.LunchBrowser()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="VarifyEmail()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyEmail" finished-at="2022-10-09T19:23:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyEmail -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyEmail status=SUCCESS method=ExtenantReportEx.VarifyEmail()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyLogo" finished-at="2022-10-09T19:23:33 IST" duration-ms="4" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped
+at Extenantreport.ExtenantReportEx.VarifyLogo(ExtenantReportEx.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VarifyLogo -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyLogo status=SKIP method=ExtenantReportEx.VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyTitle" finished-at="2022-10-09T19:23:33 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Extenantreport.ExtenantReportEx.VarifyTitle(ExtenantReportEx.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyTitle -->
-        <test-method signature="varifyLogo()[pri:0, instance:BatchTesting.HomeScreenTest@6973b51b]" started-at="2022-09-09T01:48:13 IST" name="varifyLogo" finished-at="2022-09-09T01:48:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VarifyTitle status=FAILURE method=ExtenantReportEx.VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyLogo -->
-      </class> <!-- BatchTesting.HomeScreenTest -->
-      <class name="BatchTesting.LoginTest">
-        <test-method signature="LoginByEmailID()[pri:0, instance:BatchTesting.LoginTest@59fd97a8]" started-at="2022-09-09T01:48:13 IST" name="LoginByEmailID" finished-at="2022-09-09T01:48:13 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="TearDown" finished-at="2022-10-09T19:23:34 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginByEmailID -->
-        <test-method signature="LoginByMobileNumber()[pri:0, instance:BatchTesting.LoginTest@59fd97a8]" started-at="2022-09-09T01:48:13 IST" name="LoginByMobileNumber" finished-at="2022-09-09T01:48:13 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginByMobileNumber -->
-      </class> <!-- BatchTesting.LoginTest -->
-    </test> <!-- Sanity Test -->
-  </suite> <!-- Sanity Test Suite -->
-  <suite started-at="2022-09-09T01:48:13 IST" name="Functional Test Suite" finished-at="2022-09-09T01:48:13 IST" duration-ms="22">
-    <groups>
-    </groups>
-    <test started-at="2022-09-09T01:48:13 IST" name="Functional Test" finished-at="2022-09-09T01:48:13 IST" duration-ms="22">
-      <class name="BatchTesting.PaymentTest">
-        <test-method signature="CashOnDelivery()[pri:0, instance:BatchTesting.PaymentTest@10e31a9a]" started-at="2022-09-09T01:48:13 IST" name="CashOnDelivery" finished-at="2022-09-09T01:48:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CashOnDelivery -->
-        <test-method signature="NetBanking()[pri:0, instance:BatchTesting.PaymentTest@10e31a9a]" started-at="2022-09-09T01:48:13 IST" name="NetBanking" finished-at="2022-09-09T01:48:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NetBanking -->
-      </class> <!-- BatchTesting.PaymentTest -->
-      <class name="BatchTesting.ProductPageTest">
-        <test-method signature="AddProductToCart()[pri:0, instance:BatchTesting.ProductPageTest@3febb011]" started-at="2022-09-09T01:48:13 IST" name="AddProductToCart" finished-at="2022-09-09T01:48:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddProductToCart -->
-        <test-method signature="AddProductToWishList()[pri:0, instance:BatchTesting.ProductPageTest@3febb011]" started-at="2022-09-09T01:48:13 IST" name="AddProductToWishList" finished-at="2022-09-09T01:48:13 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddProductToWishList -->
-        <test-method signature="SalectQuantity()[pri:0, instance:BatchTesting.ProductPageTest@3febb011]" started-at="2022-09-09T01:48:13 IST" name="SalectQuantity" finished-at="2022-09-09T01:48:13 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SalectQuantity -->
-      </class> <!-- BatchTesting.ProductPageTest -->
-    </test> <!-- Functional Test -->
-  </suite> <!-- Functional Test Suite -->
-  <suite started-at="2022-09-09T01:48:13 IST" name="Master Test Suite" finished-at="2022-09-09T01:48:13 IST" duration-ms="0">
-    <groups>
-    </groups>
-  </suite> <!-- Master Test Suite -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- Extenantreport.ExtenantReportEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

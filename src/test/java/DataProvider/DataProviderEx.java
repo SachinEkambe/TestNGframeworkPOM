@@ -28,9 +28,7 @@ public class DataProviderEx {
 		Searchkeyword[2][1]="Shanivarwada";
 		return Searchkeyword;
 		
-		
 	}
-	
 	
 	@Test(dataProvider ="SearchDataSet")
 	public void TestDataOnGoole(String Country, String Monument)

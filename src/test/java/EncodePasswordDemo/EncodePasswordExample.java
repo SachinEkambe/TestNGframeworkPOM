@@ -1,9 +1,11 @@
 package EncodePasswordDemo;
 
 import org.apache.commons.codec.binary.Base64;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.log4testng.Logger;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -13,6 +15,7 @@ public class EncodePasswordExample {
 		// TODO Auto-generated method stub
     WebDriverManager.chromedriver().setup();
     WebDriver driver=new ChromeDriver();
+    Logger log=(Logger)LogManager.getLogger();
 //   String password="9096350938";
 //    byte[] encodepassword=Base64.encodeBase64(password.getBytes());
 //    System.out.println(new String(encodepassword));

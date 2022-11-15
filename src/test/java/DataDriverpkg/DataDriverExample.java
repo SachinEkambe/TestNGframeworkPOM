@@ -16,7 +16,7 @@ public class DataDriverExample {
 
 	//@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
-		 Logger Log=(Logger) LogManager.getLogger();   
+		 Logger log=(Logger) LogManager.getLogger("DataDriverExample");
 		//access for workbook
      XSSFWorkbook ExecelWBook;
      XSSFSheet Excelsheet;

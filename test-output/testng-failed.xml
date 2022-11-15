@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DataProvider.DataProviderEx">
+      <class name="Extenantreport.ExtenantReportEx">
         <methods>
-          <include name="TestDataOnGoole" invocation-numbers="0 1 2"/>
+          <include name="VarifyLogo"/>
+          <include name="getTestResult"/>
+          <include name="TearDown"/>
+          <include name="StartReport"/>
+          <include name="VarifyTitle"/>
         </methods>
-      </class> <!-- DataProvider.DataProviderEx -->
+      </class> <!-- Extenantreport.ExtenantReportEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
