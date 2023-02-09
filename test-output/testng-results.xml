@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+<testng-results ignored="2" total="4" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-09T19:23:32 IST" name="Default suite" finished-at="2022-10-09T19:23:34 IST" duration-ms="1189">
+  <suite started-at="2022-11-18T23:18:35 IST" name="Failed suite [Default suite]" finished-at="2022-11-18T23:18:36 IST" duration-ms="1084">
     <groups>
     </groups>
-    <test started-at="2022-10-09T19:23:32 IST" name="Default test" finished-at="2022-10-09T19:23:34 IST" duration-ms="1189">
+    <test started-at="2022-11-18T23:18:35 IST" name="Default test(failed)" finished-at="2022-11-18T23:18:36 IST" duration-ms="1084">
       <class name="Extenantreport.ExtenantReportEx">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:32 IST" name="StartReport" finished-at="2022-10-09T19:23:33 IST" duration-ms="491" status="PASS">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:35 IST" name="StartReport" finished-at="2022-11-18T23:18:36 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartReport -->
-        <test-method signature="LunchBrowser()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="LunchBrowser" finished-at="2022-10-09T19:23:33 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LunchBrowser -->
-        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LunchBrowser status=SUCCESS method=ExtenantReportEx.LunchBrowser()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTestResult -->
-        <test-method signature="VarifyEmail()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyEmail" finished-at="2022-10-09T19:23:33 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VarifyEmail -->
-        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VarifyEmail status=SUCCESS method=ExtenantReportEx.VarifyEmail()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTestResult -->
-        <test-method signature="VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyLogo" finished-at="2022-10-09T19:23:33 IST" duration-ms="4" status="SKIP">
+        <test-method signature="VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:36 IST" name="VarifyLogo" finished-at="2022-11-18T23:18:36 IST" duration-ms="14" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[skipped]]>
@@ -81,18 +51,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyLogo -->
-        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:36 IST" name="getTestResult" finished-at="2022-11-18T23:18:36 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VarifyLogo status=SKIP method=ExtenantReportEx.VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+                <![CDATA[[TestResult name=VarifyLogo status=SKIP method=ExtenantReportEx.VarifyLogo()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestResult -->
-        <test-method signature="VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="VarifyTitle" finished-at="2022-10-09T19:23:33 IST" duration-ms="3" status="FAIL">
+        <test-method signature="VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:36 IST" name="VarifyTitle" finished-at="2022-11-18T23:18:36 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -136,22 +106,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyTitle -->
-        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="getTestResult" finished-at="2022-10-09T19:23:33 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:36 IST" name="getTestResult" finished-at="2022-11-18T23:18:36 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VarifyTitle status=FAILURE method=ExtenantReportEx.VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005] output={null}]]]>
+                <![CDATA[[TestResult name=VarifyTitle status=FAILURE method=ExtenantReportEx.VarifyTitle()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestResult -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Extenantreport.ExtenantReportEx@67d48005]" started-at="2022-10-09T19:23:33 IST" name="TearDown" finished-at="2022-10-09T19:23:34 IST" duration-ms="580" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Extenantreport.ExtenantReportEx@5876a9af]" started-at="2022-11-18T23:18:36 IST" name="TearDown" finished-at="2022-11-18T23:18:36 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Extenantreport.ExtenantReportEx -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
